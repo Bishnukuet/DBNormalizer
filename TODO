@@ -5,8 +5,6 @@ TODO
 ========
 
 1 - Class FDependencyList
-	(Refactor: Move the computation methods outside the class)
-1.1 - Class FDComputation
 	+ computeKeys(self)
 2 - Class Relation:
 	- name
@@ -32,4 +30,9 @@ TODO
 	+ readSchema: function that connects and reads the schema of a DB and returns a list of Relation objects
 	+ createSQL : SQL table creation statement
 
+2.3- class Normalization
+	+ProposeNorm: function that will propose normalization and returns the normalized relations based on the computation of NFComputation
+2.4- class XMLImEx
+	+importSchema2XML: import the FDs and Schema to XML
+	+importSchemaFromRelation: import the schema from relation and write to a xml file
 3 - UI
